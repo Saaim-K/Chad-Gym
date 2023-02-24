@@ -6,10 +6,10 @@ import ad_mobile from './assets/ad_mobile.webp'
 const App = () => {
   return (
     <>
-      <div className='flex sm:hidden'>
+      <div className='flex xs:hidden'>
         <img src={ad_mobile} />
       </div>
-      <div className='hidden sm:flex'>
+      <div className='hidden xs:flex'>
         <img src={ad_web} />
       </div>
     </>
